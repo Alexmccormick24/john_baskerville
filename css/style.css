@@ -47,7 +47,7 @@ blockquote {
   font-size: 1.414em
   hanging-punctutation: first;
   text-indent: -0.44em
-  color:#8F0040
+  color:  #8F0040
 }
 
 
@@ -55,6 +55,9 @@ blockquote cite {
 font-size: 0.75em
   color: #333;
 }
+
+header h3 {font-style: italic;}
+header p {font-size: 1.141em;}
 
 /*-------FOOTER------*/
 footer{
