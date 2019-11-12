@@ -23,7 +23,7 @@ body {
 
 h1, h2, h3 {
   font-weight: normal;
-  color: #c06;
+  color: #228B22;
   text-align: center;
 }
 p{font-family: 'Open Sans', sans-serif;}
@@ -38,21 +38,22 @@ margin-bottom: 0.1em;
 }
 
 h2 {font-size: 2.441em;
-margin: 1em 0 }
+margin: 1em 0;
+ }
 
 h3 {font-size: 1.953em;
 margin-bottom: 1.5em;}
 
 blockquote {
-  font-size: 1.414em
+  font-size: 1.414em;
   hanging-punctutation: first;
-  text-indent: -0.44em
-  color:  #8F0040
+  text-indent: -0.44em;
+  color:  	#008000;
 }
 
 
 blockquote cite {
-font-size: 0.75em
+font-size: 0.75em;
   color: #333;
 }
 
@@ -63,6 +64,6 @@ header p {font-size: 1.141em;}
 footer{
 text-align: center;
 font-size: 0.707em;
-padding: 2em 0 4em 0
+padding: 2em 0 4em 0;
 
 }
