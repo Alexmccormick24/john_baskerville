@@ -59,6 +59,24 @@ font-size: 0.75em;
 header h3 {font-style: italic;}
 header p {font-size: 1.141em;}
 
+/*------STYLING LINKS------*/
+a{
+  color: #8F0040;
+  text-decoration: none;
+}
+a:hover {
+  color: #26BED5
+  border-bottom: 1px dotted;
+}
+
+/*--------NAVIGATION-------*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+
 /*-------FOOTER------*/
 footer{
 text-align: center;
