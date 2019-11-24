@@ -19,16 +19,11 @@ body {
 
 }
 
-section, aside, header, footer {width: 80%;
-max-width: 700px;
-margin: auto;
-}
-
 /*-------TYPOGRAPHY---------*/
 
 h1, h2, h3 {
   font-weight: normal;
-  color: #8F0040;
+  color: #228B22;
   text-align: center;
 }
 p{font-family: 'Open Sans', sans-serif;}
@@ -43,7 +38,8 @@ margin-bottom: 0.1em;
 }
 
 h2 {font-size: 2.441em;
-margin: 1em 0; }
+margin: 1em 0;
+ }
 
 h3 {font-size: 1.953em;
 margin-bottom: 1.5em;}
@@ -52,7 +48,7 @@ blockquote {
   font-size: 1.414em;
   hanging-punctutation: first;
   text-indent: -0.44em;
-  color:  #8F0040;
+  color:  	#008000;
 }
 
 
@@ -63,56 +59,6 @@ font-size: 0.75em;
 
 header h3 {font-style: italic;}
 header p {font-size: 1.141em;}
-
-/*------STYLING LINKS------*/
-a{
-  color: #8F0040;
-  text-decoration: none;
-}
-a:hover {
-  color: #26BED5;
-  border-bottom: 1px dotted;
-}
-
-/*--------NAVIGATION-------*/
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: 100%;
-  background-color: #8F0040;
-  padding: 1em 0;
-  font-size: 0.75em;
-
-}
-nav ul{
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-nav ul li {
-  display: inline;
-  margin: 20px;
-}
-nav a:link {
-color: #fafafa;
-}
-nav a:visited {
-  color: #fafafa;
-}
-
-nav a:hover{
-  border-bottom: none;
-  color: #26BED5;
-
-}
-
-.baskerville {
-background: #333;
-
-}
-
 
 /*-------FOOTER------*/
 footer{
