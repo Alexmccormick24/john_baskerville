@@ -16,4 +16,7 @@
 *5 November 19*
 
 - [version 2](https://alexmccormick24.github.io/john_baskerville/history2.html)
-*5 November 19*
+*11 November 19*
+
+- [version 3](https://alexmccormick24.github.io/john_baskerville/history3.html)
+*18 November 19*
