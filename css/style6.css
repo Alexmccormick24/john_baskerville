@@ -124,9 +124,45 @@ a:hover {
 
   nav a:hover{
     border-bottom: none;
-    color: #eb4034;
+    color: #ffcb5c;
 
   }
+
+  /*--------TABLE STYLING------*/
+  table {
+  margin: auto;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin-bottom: 2em;
+  width: 100%;
+
+ }
+
+ caption {
+   margin-bottom: 1.5em;
+   text-transform: uppercase;
+ }
+
+ th{
+   color: #fafafa;
+   text-transform: uppercase;
+   font-weight: normal;
+   text-align: left;
+   background: #eb4034;
+
+ }
+
+ th,td{
+   padding: 0.6em;
+
+ }
+
+ table, td {
+   background: #ffc48a;
+   border: 1px solid #fafafa;
+
+ }
 
   /*-------IMAGES------*/
   img{
@@ -136,12 +172,62 @@ a:hover {
     max-width: 100%;
   }
 
+  /*----------------- ADDING FLEXBOX ------------------*/
+
+
+article {
+  display: flex;}
+
+section {
+  color: 333;
+  margin: 10px;
+  padding: 10px;
+  }
+
+.main{
+  flex: 3;
+  padding-right: 1em }
+
+aside { flex: 1;
+  font-size: 0.75em;
+  font-style: italic;
+  border-left: 1px solid #eb4034;
+  padding-left: 1em}
 
 
 /*-------FOOTER------*/
 footer{
-text-align: center;
-font-size: 0.707em;
-padding: 2em 0 4em 0;
-
+  text-align: center;
+  font-size: 0.707em;
+  padding: 2em 0 4em 0;
 }
+
+
+.connections {
+	position: relative;
+	margin: 0 auto;
+}
+
+.connections ul {
+	margin: 0;
+	padding: 0;}
+
+.connections li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none;
+	display: inline-block;}
+
+.connections a:link {
+	border-bottom: none;}
+
+.connections img {
+	opacity: 0.5;
+    border: none;
+	}
+
+ .connections a:hover img {
+		opacity: 1.0;
+		border-bottom: none;
+		transition: all 0.3s ease-in-out;
+				}
