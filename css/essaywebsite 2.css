@@ -1,0 +1,256 @@
+/*------ CSS RESET ------*/
+
+*{
+  padding:  0;
+  margin:  0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+/*-------NAV------*/
+.navbar {
+ margin-left: 25%;
+ overflow: hidden;
+ background-color: #deeb34;
+}
+.navbar a {
+ float: left;
+ font-size: 16px;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+.dropdown {
+ float: left;
+ overflow: hidden;
+}
+.dropdown .dropbtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ color: black;
+ padding: 14px 16px;
+ background-color: inherit;
+ font-family: inherit;
+ margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: deeb34;
+ color: white;
+}
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+.dropdown-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+.dropdown-content a:hover {
+ background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+
+/*-------MAIN STYLING------*/
+
+body {
+  /* width:  100%;
+  max-width: 1000px; */
+  margin: auto;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+section, aside, header {
+  width: 80%;
+  max-width: 760px;
+  margin: auto;
+}
+
+/*-------TYPOGRAPHY---------*/
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+
+}
+p{font-family: 'Inconsolata', monospace}
+p,blockquote {
+  margin-bottom: 1.5em;
+  line-height: 1.4;
+}
+
+h1 {font-size: 3.052em;
+margin-top: 2em;
+margin-bottom: 0.1em;
+}
+
+h2 {font-size: 2.441em;
+margin: 1em 0; }
+
+h3 {font-size: 1.953em;
+margin-bottom: 1.5em;}
+
+blockquote {
+  font-size: 1.414em;
+  hanging-punctutation: first;
+  text-indent: -0.44em;
+  color:  #000000;
+}
+
+
+blockquote cite {
+font-size: 0.75em;
+  color: #333;
+}
+
+header h3 {font-style: italic;}
+header p {font-size: 1.141em;}
+
+/*------STYLING LINKS------*/
+a{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #8c8c8c;
+  border-bottom: 1px dotted;
+}
+
+/*--------NAVIGATION-------*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #deeb34;
+  padding: 1em 0;
+  font-size: 0.75em;
+
+}
+nav ul{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+nav a:link {
+color: #000000;
+}
+nav a:visited {
+  color: #000000;
+}
+
+nav a:hover{
+  border-bottom: none;
+  color: #8c8c8c;
+
+}
+
+
+.baskerville {
+background: #333;
+
+}
+
+
+/*-------IMAGES------*/
+img{
+  display: block;
+  margin: 0em auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+.footer_img {
+width: 100%;
+
+
+}
+
+.footer_img img {
+}
+
+/*-------FOOTER------*/
+footer{
+text-align: center;
+}
+
+
+footer ul {padding-bottom: 4em}
+
+
+.connections {
+	position: relative;
+	margin: auto;
+  background: #000;
+}
+
+.connections ul {
+	margin: 0;
+	padding: 0;}
+
+.connections li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none;
+	display: inline-block;}
+
+.connections a:link {
+	border-bottom: none;}
+
+.connections img {
+	opacity: 0.5;
+    border: none;
+	}
+
+ .connections a:hover img {
+		opacity: 1.0;
+		border-bottom: none;
+		transition: all 0.3s ease-in-out;
+				}
+
+        .connections img,
+      .connections svg{
+          border: none;
+      }
+      .connections a:hover img,
+      .connections a:hover svg{
+          border-bottom: none;}
+
+      .connections svg {
+              margin: 2em auto;}
+
+      .connections a:hover svg path {
+              fill: #deeb34;
+              transition: all 0.2s ease-in-out;}
+
+
+      .connections .twitter a:hover svg path {
+                fill: #deeb34 ;
+                      transition: all 0.2s ease-in-out;}
+
+
+
+      .connections .tumblr a:hover svg path {
+                fill: #deeb34 ;
+                                  transition: all 0.2s ease-in-out;}
